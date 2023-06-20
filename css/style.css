@@ -1,0 +1,7 @@
+.link-button{
+    color: #434455;
+}
+.link-button:hover,.link-button:active,.link-button:focus{
+    color: #4D5AE5;
+
+}
