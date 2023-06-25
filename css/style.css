@@ -1,7 +1,19 @@
-.link-button{
-    color: #434455;
+:root {
+    --primery-text-color:#434455;
+    --primery-white-color:#ffffff;
+    --title-text-color: #2E2F42;
+    --activ-focus-color:#4D5AE5;
+    --secondary-color:#F4F4FD;
+    
 }
-.link-button:hover,.link-button:active,.link-button:focus{
-    color: #4D5AE5;
-
+body{
+    font-family:"Roboto",sans-serif;
+    color:var(--primery-text-color);
+    background-color:var(--primery-white-color);
+}
+.navigation-site .navigation-link{
+text-decoration: none;
+}
+.contacts .contact-link{
+text-decoration: none;
 }
