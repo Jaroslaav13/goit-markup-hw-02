@@ -154,15 +154,15 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.logo-web {
-    color: var(--iris);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.logo-web{
+        color:var(--iris);
+        font-size: 18px;
+         font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
- .footer-text{
+.footer-text{
         color: var(--cloud);
         font-size: 16px;
         line-height:1.5;
