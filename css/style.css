@@ -67,10 +67,10 @@ body{
     letter-spacing:0.02em
 }
 .link-nav :hover,.link-nav :focus{
-    color: var(--iris);
+    color:var(--ocean);
 }
 .link-nav :active{
-    color: var(--iris);
+    color: var(--ocean);
     text-decoration: underline;
 }
 .contacts{
