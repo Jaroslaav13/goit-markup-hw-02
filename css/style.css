@@ -18,12 +18,27 @@ body{
     color:var(--slate);
     background-color:var(--white);
 }
-/* header-nav */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.link{
+        text-decoration: none;
+    }
+.list{
+        list-style: none;
+    }
+/* ----header---- */
 .header{
     background-color: var(--white);
-}
-ul{
-    list-style: none;
 }
 
 .logo-web{
@@ -31,27 +46,26 @@ ul{
         font-size: 18px;
         font-family: Raleway;
         font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.54px;
+        line-height: 1.17;
+        letter-spacing:0.03em;
         text-transform: uppercase;
     
 }
 .logo-studio{
-    color:var(--navy-blue, #2E2F42);
+        color:var(--navy-blue, #2E2F42);
         font-size: 18px;
         font-family: Raleway;
         font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.54px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 .site-nav .link-nav{
     color:var(--navyblue, #2E2F42);
     font-size: 16px;
-    font-family: Roboto;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px
+    line-height: 1.5;
+    letter-spacing:0.02em
 }
 .link-nav :hover,.link-nav :focus{
     color: var(--iris);
@@ -63,16 +77,15 @@ ul{
 .contacts .contact-link{
     color: var(--slate, #434455);
     font-size: 16px;
-    font-family: Roboto;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing:0.02em;
     text-decoration: none;
 }
-/* НЕ ПОЛУЧИЛОСЬ!!! */
 .contacts .contact-link:active{
     color:var(--iris);
 }
-/* Hero section */
+/** --------Hero section ----*/
+
 .hero-section{
     background: var(--navyblue, #2E2F42);
 }
@@ -80,10 +93,9 @@ ul{
         color: var(--white, #FFF);
         text-align: center;
         font-size: 56px;
-        font-family: Roboto;
         font-weight: 700;
-        line-height: 60px;
-        letter-spacing: 1.12px;
+        line-height:1.07;
+        letter-spacing: 0.07em;
 }
 .hero-section .link-button{
         border-radius: 4px;
@@ -100,35 +112,95 @@ ul{
         font-size: 16px;
         font-family: Roboto;
         font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.64px;
+        line-height: 1.15;
+        letter-spacing: 0.04em;
 }
 /*  Section credo,work,team */
+
 .section-title{
         color: var(--navy-blue, #2E2F42);
         text-align: center;
         font-size: 36px;
-        font-family: Roboto;
         font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.72px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
     }
-.section-title-invisible{
-    color: rgb(255, 255, 255);
-}
 .list-title{
         color: var(--navy-blue, #2E2F42);
         font-size: 20px;
-        font-family: Roboto;
         font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 .list-text{
         color: var(--slate, #434455);
         font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+/* ------FOOTER--------------- */
+
+.footer{
+        background-color: var(--navy-blue);
+}
+.logo-studio-footer{
+    color: var(--cloud);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-text{
+        color: var(--cloud, #F4F4FD);
+        font-size: 16px;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
+}
+
+
+
+/* ----------_________PORTFOLIO___________-------- */
+
+.portfoilo-section {}
+
+.list-btn {}
+
+.portfolio-btn {
+        color:var(--iris);
+        text-align: center;
+         font-size: 16px;
         font-family: Roboto;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+        font-weight: 500;
+        line-height: 1.15;
+        letter-spacing: 0.04em;
+        background-color:var(--cloud);
+        cursor: pointer;
+}
+.portfolio-btn:hover,.portfolio-btn:focus{
+        color:var(--white);
+        background-color: var(--ocean);
+}
+
+.presentation {}
+
+.list-presentation {}
+
+.list-made {}
+
+.title-portfolio {
+        color: var(--navy-blue);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.text-portfolio {
+        color: var(--slate);
+        font-size: 16px;
+        line-height:1.5;
+        letter-spacing: 0.02em;
 }
