@@ -66,10 +66,11 @@ body{
     line-height: 1.5;
     letter-spacing:0.02em
 }
-.link-nav :hover,.list-nav :focus{
+.link-nav:hover,
+.list-nav:focus{
     color:var(--ocean);
 }
-.link-nav :active{
+.link-nav:active{
     color: var(--ocean);
     text-decoration: underline;
 }
@@ -142,7 +143,7 @@ body{
 /* ------FOOTER--------------- */
 
 .footer{
-        background-color: var(--navy-blue);
+        background-color:var(--navy-blue);
 }
 .logo-footer{
     color: var(--iris);
@@ -162,7 +163,7 @@ body{
         text-transform: uppercase;
 }
 .footer-text{
-        color: var(--cloud);
+        color:var(--cloud);
         font-size: 16px;
         line-height:1.5;
         letter-spacing: 0.02em;
@@ -180,9 +181,8 @@ body{
         color:var(--iris);
         text-align: center;
          font-size: 16px;
-        font-family: Roboto;
+        font-family:inherit;
         font-weight: 500;
-        line-height: 1.15;
         letter-spacing: 0.04em;
         background-color:var(--cloud);
         cursor: pointer;
@@ -199,7 +199,7 @@ body{
 .list-made {}
 
 .title-portfolio {
-        color: var(--navy-blue);
+        color:var(--navy-blue);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -207,7 +207,7 @@ body{
 }
 
 .text-portfolio {
-        color: var(--slate);
+        color:var(--slate);
         font-size: 16px;
         line-height:1.5;
         letter-spacing: 0.02em;
