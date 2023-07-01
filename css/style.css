@@ -59,33 +59,33 @@ body{
     text-transform: uppercase;
 }
 
-.link-nav .link{
+.link-nav{
     color:var(--navy-blue);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing:0.02em
 }
-.link-nav .link:hover,
-.list-nav .link:focus{
+.link-nav:hover,
+.list-nav:focus{
     color:var(--ocean);
 }
-.link-nav .link:active{
+.link-nav:active{
     color: var(--ocean);
     text-decoration: underline;
 }
 .contacts{
     font-style: normal;
 }
-.contact-link .link{
+.contacts-item .contact-link{
     color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing:0.02em;
     }
-.contact-link .link:active,
-.contact-link .link:hover,
-.contact-link .link:focus{
+.contact-link:active,
+.contact-link:hover,
+.contact-link:focus{
     color:var(--ocean);
 }
 /** --------Hero section ----*/
