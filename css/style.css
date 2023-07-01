@@ -19,7 +19,7 @@ body{
     background-color:var(--white);
 }
 /* .visually-hidden{ */
-    position: absolute;
+    position: absolute; */
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -68,7 +68,7 @@ body{
 }
 .link-nav:hover,
 .link-nav:focus{
-    color:var(--iris);
+    color:var(--ocean);
 }
 .link-nav:active{
     color: var(--ocean);
