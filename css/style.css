@@ -67,7 +67,7 @@ body{
     letter-spacing:0.02em
 }
 .link-nav:hover,
-.list-nav:focus{
+.link-nav:focus{
     color:var(--ocean);
 }
 .link-nav:active{
