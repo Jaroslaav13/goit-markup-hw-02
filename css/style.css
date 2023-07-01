@@ -18,18 +18,7 @@ body{
     color:var(--slate);
     background-color:var(--white);
 }
-.visually-hidden{
-    position: absolute; */
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-} 
+/* ---тут має бути visually-hidden---*/
 .link{
     text-decoration: none;
     }
@@ -58,7 +47,6 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
 .link-nav.link{
     color:var(--navy-blue);
     font-size: 16px;
