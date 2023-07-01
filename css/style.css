@@ -66,11 +66,11 @@ body{
     line-height: 1.5;
     letter-spacing:0.02em
 }
-.link-nav:hover,
-.list-nav:focus{
+.link-nav .link:hover,
+.list-nav .link:focus{
     color:var(--ocean);
 }
-.link-nav:active{
+.link-nav .link:active{
     color: var(--ocean);
     text-decoration: underline;
 }
@@ -83,9 +83,9 @@ body{
     line-height: 1.5;
     letter-spacing:0.02em;
     }
-.contact-link:active,
-.contact-link:hover,
-.contact-link:focus{
+.contact-link .link:active,
+.contact-link .link:hover,
+.contact-link .link:focus{
     color:var(--ocean);
 }
 /** --------Hero section ----*/
