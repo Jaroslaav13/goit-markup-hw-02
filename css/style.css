@@ -68,10 +68,10 @@ body{
 }
 .link-nav:hover,
 .list-nav:focus{
-    color:var(--iris);
+    color:var(--ocean);
 }
 .link-nav:active{
-    color: var(--iris);
+    color: var(--ocean);
     text-decoration: underline;
 }
 .contacts{
@@ -86,7 +86,7 @@ body{
 .contact-link:active,
 .contact-link:hover,
 .contact-link:focus{
-    color:var(--iris);
+    color:var(--ocean);
 }
 /** --------Hero section ----*/
 
