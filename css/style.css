@@ -68,7 +68,7 @@ body{
 }
 .link-nav .link:hover,
 .list-nav .link:focus{
-    color:var(--iris);
+    color:var(--ocean);
 }
 .link-nav .link:active{
     color: var(--ocean);
