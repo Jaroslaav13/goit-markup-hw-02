@@ -56,10 +56,9 @@ body{
 }
 .link-nav:hover,
 .link-nav:focus{
-    color:var(--iris);
+    color:var(--ocean);
 }
 .link-nav:active{
-    color: var(--ocean);
     text-decoration: underline;
 }
 .contacts{
